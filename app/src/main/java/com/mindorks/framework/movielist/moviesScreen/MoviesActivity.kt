@@ -55,7 +55,7 @@ class MoviesActivity : AppCompatActivity() {
                 viewModel.getMovies() ghlgl
                 viewModel.moviesLiveData.observe(this@MoviesActivity) { list ->
                     list.asReversed()
-                    adapter.setData(list)
+                    adapter.setData(list)//
                 }
 
                 // Setting the Adapter with the recyclerview
