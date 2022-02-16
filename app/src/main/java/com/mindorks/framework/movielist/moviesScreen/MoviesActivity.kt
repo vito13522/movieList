@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.mindorks.framework.movielist.SingleMovie.MoviesDetailsActivity
 import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.Movies
-import com.mindorks.framework.movielist.remote.ApiInterface
+import com.mindorks.framework.movielist.remote.TheMovieDBInterfae
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -36,7 +36,7 @@ class MoviesActivity : AppCompatActivity() {
 //            data.add(ItemsViewModel(R.drawable.ic_launcher_background, "Item " + i))
 //        }
 
-        val apiInterface = ApiInterface.create().getMovies("9f27579c00bf2cac2ad7b467e86c5105")
+        val apiInterface = TheMovieDBInterfae.create().getMovies("9f27579c00bf2cac2ad7b467e86c5105")
 
 
         apiInterface.enqueue(object : Callback<Movies>, CustomAdapter.ItemClickListener {

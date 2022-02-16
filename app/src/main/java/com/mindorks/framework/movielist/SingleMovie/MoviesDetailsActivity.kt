@@ -6,7 +6,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.MovieDetails
-import com.mindorks.framework.movielist.remote.ApiInterface
+import com.mindorks.framework.movielist.remote.TheMovieDBInterfae
 import com.squareup.picasso.Picasso
 import retrofit2.Call
 import retrofit2.Callback
@@ -33,7 +33,7 @@ class MoviesDetailsActivity : AppCompatActivity() {
         banner = findViewById(R.id.movies_details_image_banner)
 
         val apiInterface = id.let {
-            ApiInterface.create().getMovieDetails(it, "9f27579c00bf2cac2ad7b467e86c5105")
+            TheMovieDBInterfae.create().getMovieDetails(it, "9f27579c00bf2cac2ad7b467e86c5105")
         }
 
         apiInterface?.enqueue(object : Callback<MovieDetails> {

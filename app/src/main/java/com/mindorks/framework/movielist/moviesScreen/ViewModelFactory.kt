@@ -1,11 +1,5 @@
 package com.mindorks.framework.movielist.moviesScreen
 
-import android.app.Application
-import android.content.Context
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
-import com.mindorks.framework.movielist.remote.ApiInterface
-
 //class ViewModelFactory (
 //    app: Application,
 //) : ViewModelProvider.Factory {
