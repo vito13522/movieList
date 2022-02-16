@@ -12,7 +12,7 @@ class NetworkState(val status: Status, val msg: String) {
     companion object {
         val LOADED: NetworkState
         val LOADING: NetworkState
-        val Error: NetworkState
+        val ERROR: NetworkState
     }
 
     init {
