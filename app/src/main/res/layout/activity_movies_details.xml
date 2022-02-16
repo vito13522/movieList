@@ -8,7 +8,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context="com.mindorks.framework.movielist.MoviesDetailsActivity">
+    tools:context="com.mindorks.framework.movielist.SingleMovie.MoviesDetailsActivity">
 
 
 

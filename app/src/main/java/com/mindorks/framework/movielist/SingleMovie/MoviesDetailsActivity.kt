@@ -1,13 +1,11 @@
-package com.mindorks.framework.movielist
+package com.mindorks.framework.movielist.SingleMovie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
 import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.MovieDetails
-import com.mindorks.framework.movielist.model.Movies
 import com.mindorks.framework.movielist.remote.ApiInterface
 import com.squareup.picasso.Picasso
 import retrofit2.Call

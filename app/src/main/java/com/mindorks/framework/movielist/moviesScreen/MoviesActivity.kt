@@ -4,10 +4,9 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mindorks.framework.movielist.MoviesDetailsActivity
+import com.mindorks.framework.movielist.SingleMovie.MoviesDetailsActivity
 import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.Movies
 import com.mindorks.framework.movielist.remote.ApiInterface

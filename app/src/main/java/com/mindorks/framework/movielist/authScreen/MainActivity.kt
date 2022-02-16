@@ -1,4 +1,4 @@
-package com.mindorks.framework.movielist
+package com.mindorks.framework.movielist.authScreen
 
 import  android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

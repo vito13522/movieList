@@ -1,4 +1,4 @@
-package com.mindorks.framework.movielist
+package com.mindorks.framework.movielist.repository
 
 
 import android.graphics.Movie

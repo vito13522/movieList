@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RetrofitCoctail">
         <activity
-            android:name="com.mindorks.framework.movielist.MoviesDetailsActivity"
+            android:name="com.mindorks.framework.movielist.SingleMovie.MoviesDetailsActivity"
             android:exported="false" />
         <activity android:name="com.mindorks.framework.movielist.moviesScreen.MoviesActivity" />
         <activity
