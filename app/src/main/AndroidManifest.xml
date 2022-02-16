@@ -15,7 +15,7 @@
         <activity
             android:name="com.mindorks.framework.movielist.MoviesDetailsActivity"
             android:exported="false" />
-        <activity android:name="com.mindorks.framework.movielist.MoviesActivity" />
+        <activity android:name="com.mindorks.framework.movielist.moviesScreen.MoviesActivity" />
         <activity
             android:name="com.mindorks.framework.movielist.MainActivity"
             android:exported="true">

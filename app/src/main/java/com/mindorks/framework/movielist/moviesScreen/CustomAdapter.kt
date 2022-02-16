@@ -1,4 +1,4 @@
-package com.mindorks.framework.movielist
+package com.mindorks.framework.movielist.moviesScreen
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,9 +9,16 @@ import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.Result
 import com.squareup.picasso.Picasso
 
-class CustomAdapter(private val mList: List<Result>?,
-                    val mItemClickListener: ItemClickListener
+class CustomAdapter(
+    val mItemClickListener: ItemClickListener
 ) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+    private val mList: MutableList<Result> = mutableListOf()
+
+
+    fun setData(list: List<Result>) {
+        mList.clear()
+        mList.addAll(list)
+    }
 
     interface ItemClickListener{
         fun onItemClick(position: Int)

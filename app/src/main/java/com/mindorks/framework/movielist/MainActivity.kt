@@ -4,8 +4,6 @@ import  android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
-import android.widget.Toast
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
 import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult
@@ -15,6 +13,7 @@ import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import com.mindorks.framework.retrofitcoctail.R
 import com.mindorks.framework.movielist.model.User
+import com.mindorks.framework.movielist.moviesScreen.MoviesActivity
 
 private lateinit var database: DatabaseReference
 
